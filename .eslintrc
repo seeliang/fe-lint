@@ -1,6 +1,4 @@
 {
-  "parser": "babel-eslint",
-  "plugins": ["react"],
   "ecmaFeatures":{
     "arrowFunctions": true,
     "binaryLiterals": true,
@@ -27,6 +25,10 @@
     "mocha": true,
     "es6": true
   },
+  "extends": "eslint:recommended",
+  "parser": "babel-eslint",
+  "parserOptions": {"sourceType": "module"},
+  "plugins": ["react"],
   "rules": {
     "camelcase": 2,
     "comma-dangle": 2,
@@ -83,6 +85,5 @@
     "react/self-closing-comp": 1,
     "react/sort-comp": 1,
     "react/wrap-multilines": 1
-  },
-  "extends": "eslint:recommended",
+  }
 }
