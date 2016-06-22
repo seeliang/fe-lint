@@ -33,6 +33,7 @@ rules:
     - 1
     - filename-extension: false
       leading-underscore: false
+  empty-arg: false
   empty-line-between-blocks:
     - 1
     - ignore-single-line-rulesets: true
