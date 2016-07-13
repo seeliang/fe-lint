@@ -74,6 +74,7 @@ rules:
     - max-depth: 3
   no-color-keyword: 1
   no-color-literals: 1
+  no-combinators: 1
   no-css-comments: 1
   no-debug: 1
   no-duplicate-properties: 1
