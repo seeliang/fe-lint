@@ -33,7 +33,7 @@ rules:
     - 1
     - filename-extension: false
       leading-underscore: false
-  empty-arg: 1
+  empty-args: 1
   empty-line-between-blocks:
     - 1
     - ignore-single-line-rulesets: true
@@ -72,7 +72,7 @@ rules:
   nesting-depth:
     - 1
     - max-depth: 3
-  no-color-keyword: 1
+  no-color-keywords: 1
   no-color-literals: 1
   no-combinators: 1
   no-css-comments: 1
