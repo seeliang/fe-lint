@@ -1,6 +1,6 @@
 {
   "name": "sl-fe-lint",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "lint set for front end project ",
   "main": "index.js",
   "scripts": {
