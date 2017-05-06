@@ -5,4 +5,5 @@
 included
 
 * **.eslintrc** : eslint for JS code
-* **.scss-lint.yml** : for scss code
+* **.scss-lint.yml** : Discontinued
+* **.sass-lint.yml** : for scss code
