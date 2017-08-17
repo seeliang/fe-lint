@@ -1,5 +1,5 @@
 {
-  "ecmaFeatures":{
+  "parserOptions": {
     "arrowFunctions": true,
     "binaryLiterals": true,
     "blockBindings": true,
@@ -14,6 +14,7 @@
     "objectLiteralShorthandMethods": true,
     "objectLiteralShorthandProperties": true,
     "octalLiterals": true,
+    "sourceType": "module",
     "spread": true,
     "templateStrings": true,
     "globalReturn": true, // React JSX support
