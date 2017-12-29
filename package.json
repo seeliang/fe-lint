@@ -4,7 +4,11 @@
   "description": "lint set for front end project ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "init": "yarn react-sample",
+    "react-sample": "git worktree add test/js/react react/master",
+    "react-test": "yarn eslint test/js/react/src",
+    "reset": "rm -rf test && git worktree prune",
+    "test": "yarn react-test"
   },
   "repository": {
     "type": "git",
@@ -20,5 +24,11 @@
   "bugs": {
     "url": "https://github.com/seeliang/fe-lint/issues"
   },
-  "homepage": "https://github.com/seeliang/fe-lint#readme"
+  "homepage": "https://github.com/seeliang/fe-lint#readme",
+  "devDependencies": {
+    "babel-eslint": "^8.1.2",
+    "eslint": "^4.14.0",
+    "eslint-plugin-react": "^7.5.1",
+    "sass-lint": "^1.12.1"
+  }
 }

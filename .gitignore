@@ -1,2 +1,5 @@
 
 .dm.eslintrc
+
+node_modules
+test
