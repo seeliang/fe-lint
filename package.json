@@ -4,8 +4,9 @@
   "description": "lint set for front end project ",
   "main": "index.js",
   "scripts": {
+    "add-react": "git remote add react https://github.com/seeliang/react-range-selector.git && git fetch react",
     "start": "yarn install && yarn react-sample",
-    "react-sample": "git worktree add test/js/react react/master",
+    "react-sample": "yarn add-react && git worktree add test/js/react react/master",
     "react-test": "yarn eslint test/js/react/src",
     "reset": "rm -rf test && git worktree prune",
     "test": "yarn react-test"
