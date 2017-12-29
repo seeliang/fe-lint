@@ -4,6 +4,8 @@
   "description": "lint set for front end project ",
   "main": "index.js",
   "scripts": {
+    "react-sample": "git worktree add test/js/react react/master",
+    "react-test": "yarn eslint test/js/react/src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
