@@ -4,7 +4,7 @@
   "description": "lint set for front end project ",
   "main": "index.js",
   "scripts": {
-    "init": "yarn install && yarn react-sample",
+    "start": "yarn install && yarn react-sample",
     "react-sample": "git worktree add test/js/react react/master",
     "react-test": "yarn eslint test/js/react/src",
     "reset": "rm -rf test && git worktree prune",

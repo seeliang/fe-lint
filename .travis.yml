@@ -9,5 +9,5 @@ notifications:
   email:
     - sway.liang@gmail.com
 script: 
-  - yarn init
+  - yarn start
   - yarn test
